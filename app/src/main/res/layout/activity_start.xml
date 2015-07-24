@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.ogolodali.app.view.StartActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/loading"
+        android:id="@+id/statusTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectingProgressBar"
+        android:layout_below="@+id/statusTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:id="@+id/reconnectButton"
+        android:layout_alignTop="@+id/connectingProgressBar"
+        android:layout_centerHorizontal="true"
+        android:onClick="onReconnect"
+        />
+
+</RelativeLayout>

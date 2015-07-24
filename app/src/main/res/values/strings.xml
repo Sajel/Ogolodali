@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ogolodali</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="searchAutoCompleteHint">Введите название ингредиента или категории:</string>
+    <string name="cookingTime">Время готовки:</string>
+    <string name="cookingTimeBounds">от 0 до 9000 мин.</string>
+    <string name="difficulty">Сложность:</string>
+    <string name="diffuclyBounds">элементарно — \nзапредельно</string>
+    <string name="chosenIngredients">Выбранные ингредиенты:</string>
+    <string name="chosenTags">Выбранные категории:</string>
+    <string name="search">Поиск</string>
+    <string name="title_activity_ingredients">ingredientsActivity</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string name="tags">Категории</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="loading">Загрузка...</string>
+    <string name="connecting_error">Ошибка</string>
+    <string name="update">Обновить</string>
+    <string name="saveFridge">Сохранить холодильник</string>
+    <string name="loadFridge">Загрузить холодильник</string>
+    <string name="saveFridgeConfirm">Сохранить список ингредиентов?</string>
+    <string name="loadFridgeConfirm">Загрузить список ингредиентов?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="saveFridgeDone">Холодильник сохранен</string>
+    <string name="loadFridgeDone">Холодильник загружен</string>
+    <string name="emptyFridge">Холодильник пуст</string>
+    <string name="title_activity_list_recipe">ListRecipeActivity</string>
+</resources>

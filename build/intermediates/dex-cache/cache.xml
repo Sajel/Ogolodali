@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidProjects\Ogolodali\app\libs\jsoup-1.8.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
+        <dex dex="D:\AndroidProjects\Ogolodali\app\build\intermediates\pre-dexed\debug\jsoup-1.8.2-d9d265c10068e77ea5131f74332dd3071cadec92.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\AndroidProjects\Ogolodali\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-91f5c31930175b7860fe0f87febc4f6b571bd292.jar" />
+    </item>
+
+</items>

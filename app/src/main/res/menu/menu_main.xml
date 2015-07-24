@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/saveFridge" android:id="@+id/saveFridge" android:showAsAction="never">
+    </item>
+    <item android:id="@+id/loadFridge" android:showAsAction="never" android:title="@string/loadFridge">
+    </item>
+    <item android:showAsAction="never" android:id="@+id/savedRecipes" android:title="Сохраненные рецепты
+    "></item>
+
+
+
+</menu>
